@@ -31,7 +31,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-[https://imgur.com/a/CvV1se3](Video Walkthrough)
+(https://imgur.com/a/CvV1se3)[Video Walkthrough]
 
 ## Notes
 
