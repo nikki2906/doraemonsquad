@@ -22,13 +22,13 @@ export default function CharacterGallery() {
         <div>
             <div className='gallery-header'>
                 <h1>Doreameon world</h1>
-                <h3>Say hello to all of your fellow townies and get to know them!</h3>
+                <h3>Say hello to all of your fellow friends and get to know them!</h3>
             </div>
             <div className='gallery-container'>
             {
                 data && data.length > 0 ? data.map((char) => (
                     <CharacterCard key={char.id} character={char} />
-                )) : <h3>no townies at the moment!</h3>
+                )) : <h3>No characters at the moment!</h3>
             }
 
             </div>

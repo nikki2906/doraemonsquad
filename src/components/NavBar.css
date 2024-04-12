@@ -1,6 +1,6 @@
 .nav-bar {
     /* Style */
-    background-color: white;
+    background-color: lightblue; /* Light blue background color */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
 
     /* Positioning */
@@ -15,6 +15,7 @@
     align-items: center; /* Center items vertically */
     justify-content: center; /* Center items horizontally, you can change to 'flex-start' or 'space-between' if preferred */
 }
+
 
 .nav-bar ul {
     /* Reset default list styles */
@@ -42,5 +43,5 @@
 
 .nav-bar a:hover {
     /* Hover effect */
-    color:lightblue; /* Change to preferred hover color */
+    color:white; /* Change to preferred hover color */
 }

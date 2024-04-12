@@ -69,7 +69,7 @@ const EditCharacter = () => {
             <label>
                 Gadget <br/>
                 <select value={crewmates.gadget} onChange={(e) => setCrewmates({...crewmates, gadget: e.target.value})}>
-                        <option value='Hopter'>Hopter</option>
+                        <option value='Bamboo Copter'>Bamboo Copter</option>
                         <option value='Anywhere Door'>Anywhere Door</option>
                         <option value='Time Machine'>Time Machine</option>
                         <option value='Memory Bread'>Memory Bread</option>
@@ -77,6 +77,11 @@ const EditCharacter = () => {
                         <option value='Translation Jelly '>Cinnamoroll</option>
                         <option value='Tunnel Digging '>Tunnel Digging</option>
                         <option value='Mending Putty'>Mending Putty</option>
+                        <option value='Translation Jelly'>Translation Jelly</option>
+                        <option value='Invisible Cape'>Invisible Cape</option>
+                        <option value='Air Cannon'>Air Cannon</option>
+                        <option value='Fanta Glasses'>Fanta Glasses</option>
+                        <option value='Hypnotizing Megaphone'>Hypnotizing Megaphone</option>
                     </select> <br/>
             </label> <br/>
             <label>

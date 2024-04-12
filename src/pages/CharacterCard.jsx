@@ -6,10 +6,8 @@ export default function CharacterCard( { character } ) {
     return(
         <div className='card'>
             <img src={imgURL}/>
-            <h2>Name: </h2> 
-            <h3>{character.name} <br/></h3>
-            <h2>Gadget: </h2>
-            <h3>{character.gadget}<br/></h3>
+            <h2>Name: {character.name} </h2> 
+            <h2>Gadget: {character.gadget}</h2> <br/>
             <Link className='button-link' to={`/character-details/${character.id}`}>Townie Details</Link>
         </div>
     );

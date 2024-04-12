@@ -1,10 +1,13 @@
-.char-creation-container {
-    margin-top: 50px;
-    top: 10px;
-
+.character-form-container {
+    flex-grow: 1;
+    display: flex;
+    align-items: center; /* This will center the form vertically */
+    justify-content: center; /* This will center the form horizontally */
+    margin-top: 100px; /* Add desired top margin */
 }
+
 .img-background {
-    margin-top: -400px;
+    margin-top: 10px;
     z-index: -1;
     position: relative;
     opacity: 0.25;
