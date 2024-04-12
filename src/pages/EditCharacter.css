@@ -1,0 +1,6 @@
+.img-background {
+    margin-top: -1000px;
+    z-index: -1;
+    position: relative;
+    opacity: 0.25;
+}

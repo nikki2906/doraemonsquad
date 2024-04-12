@@ -1,0 +1,35 @@
+img {
+    max-width: 250px;
+    max-height: 250px;
+    /* display: block; */
+}
+.card {
+    /* Card container */
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #e0e0e0; /* Thin border around the card */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden;   /* Ensures nothing spills out of rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slight grow effect on hover */
+}
+.button-link {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color:gainsboro;
+    color: black;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+
+    /* Optional: if you want some hover effect */
+    &:hover {
+        background-color:lightslategray;
+        color:lightblue;
+    }
+}

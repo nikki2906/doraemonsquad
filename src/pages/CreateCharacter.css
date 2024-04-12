@@ -1,0 +1,12 @@
+.char-creation-container {
+    margin-top: 50px;
+    top: 10px;
+
+}
+.img-background {
+    margin-top: -400px;
+    z-index: -1;
+    position: relative;
+    opacity: 0.25;
+    transform: scale(3);
+}

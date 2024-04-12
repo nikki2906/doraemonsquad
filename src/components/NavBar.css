@@ -1,0 +1,46 @@
+.nav-bar {
+    /* Style */
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+
+    /* Positioning */
+    position: sticky; /* This will make the navbar stick to the top of the viewport when scrolling */
+    top: 0; /* Stick to the top */
+    z-index: 1000; /* Ensures navbar stays above other content */
+
+    /* Layout */
+    width: 100%; /* Full width */
+    height: 60px; /* Adjust if you want taller or shorter navbar */
+    display: flex; /* Flexbox layout to center items */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally, you can change to 'flex-start' or 'space-between' if preferred */
+}
+
+.nav-bar ul {
+    /* Reset default list styles */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    /* Layout */
+    display: flex;
+    gap: 20px; /* Space between links */
+}
+
+.nav-bar li {
+    /* Layout */
+    display: inline-block;
+}
+
+.nav-bar a {
+    /* Style */
+    color: black; /* Default color for links */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 15px; /* Some space around links for better clickability */
+    transition: color 0.2s; /* Smooth color transition for hover effect */
+}
+
+.nav-bar a:hover {
+    /* Hover effect */
+    color:lightblue; /* Change to preferred hover color */
+}
